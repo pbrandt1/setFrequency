@@ -2,11 +2,11 @@
 just like setInterval but based on frequency instead of period.  Works in node or the browser.
 ## How to use
 ```
-npm install setFrequency
+npm install setfrequency
 ```
 
 ```js
-var setFrequency = require('setFrequency');
+var setFrequency = require('setfrequency');
 var timer = setFrequency(function() {
     console.log('callback');
 }, 10);
