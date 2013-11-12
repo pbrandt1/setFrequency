@@ -1,0 +1,30 @@
+{
+  "name": "setFrequency",
+  "description": "",
+  "keywords": [
+    "setInterval",
+    "frequency"
+  ],
+  "version": "0.0.1",
+  "author": "Peter Brandt <peter.m.brandt@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pbrandt1/setFrequency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pbrandt1/setFrequency/issues"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-release": "~0.5.1",
+    "should": "~2.1.0",
+    "grunt-mocha-cli": "~1.2.1"
+  }
+}
