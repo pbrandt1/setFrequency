@@ -2,7 +2,7 @@
 just like setInterval but based on frequency instead of period.  Works in node or the browser.
 ## How to use
 ```
-npm install setInterval
+npm install setFrequency
 ```
 
 ```js
