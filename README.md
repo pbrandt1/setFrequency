@@ -6,7 +6,7 @@ npm install setInterval
 ```
 
 ```js
-var setFrequency = require('simplematrix');
+var setFrequency = require('setFrequency');
 var timer = setFrequency(function() {
     console.log('callback');
 }, 10);
