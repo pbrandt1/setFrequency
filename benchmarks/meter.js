@@ -51,9 +51,9 @@ var f = function(hz) {
 
       // go logarithmic for high numbers
       if (hz >= 100) {
-        f(Math.pow(2,Math.log(hz)/Math.log(2) +.25));
+        f(Math.pow(2,Math.log(hz)/Math.log(2) +.2));
       } else {
-        f(hz + 11);
+        f(hz + 5);
       }
     } else {
       log.close();
