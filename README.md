@@ -1,5 +1,5 @@
 # setFrequency
-just like setInterval but based on frequency instead of period.  Works in node or the browser.
+just like setInterval but based on frequency instead of period.  Does not work in the browser yet.
 ## How to use
 ```
 npm install setfrequency
@@ -17,6 +17,12 @@ timer.frequency = 20;
 // can change the callback any time
 timer.callback = function() { console.log('second callback') };
 ```
+
+## Performance
+Looking to improve performance here.
+
+![alt text](https://github.com/pbrandt1/setFrequency/raw/master/plot.png "Frequency fidelity plot")
+
 
 ## Properties
 ### frequency
