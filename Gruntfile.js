@@ -47,6 +47,7 @@ module.exports = function(grunt) {
           console: true,
           window: true,
           setTimeout: true,
+          setImmediate: true,
           clearTimeout: true
         }
       }
